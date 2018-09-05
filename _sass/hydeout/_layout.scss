@@ -22,6 +22,13 @@
   we want the sidebar or header to stretch.
 */
 
+/* 
+Changes by Kalyna
+
+1) changed .site-title font-family
+
+*/
+
 body {
   color: rgba(255,255,255,.75);
   background-color: $sidebar-bg-color;
@@ -40,9 +47,9 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: "Abril Fatface", serif;
+    font-family: "Montserrat Alternates", serif;
     font-weight: normal;
-    font-size: $large-font-size;
+    font-size: 16px;
     color: rgba(255,255,255,.75);
     margin-top: 0;
     margin-bottom: $heading-spacing;

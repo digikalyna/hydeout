@@ -2,5 +2,15 @@
 # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 # only main files contain this front matter, not partials.
 ---
+// Hyde theming
+$sidebar-bg-color: rgb(5,17,39);
+$sidebar-title: "Montserrat Alternates";
+$sidebar-title-color: #ffffff !default;
+$sidebar-sticky: true !default;
+$layout-reverse: false !default;
+
+$root-font-family: "Montserrat";
+
+$large-font-size: 1.25rem;
 
 @import "hydeout";
